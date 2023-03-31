@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  max-width: 100%;
 }
 
 
@@ -26,6 +27,7 @@ h2 , h3 {
 }
 
 .flex-container {
+  max-width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -73,6 +75,7 @@ h2 , h3 {
 
 
 .main-con {
+  flex-wrap: wrap;
   margin: 0;
   display: flex;
   justify-content:space-evenly;
@@ -112,6 +115,10 @@ body {
 
 
 .container3 {
+  flex-wrap: wrap;
+  background-image: url("../images/workplace-g43015c2a8_1920.jpg");
+  background-size: cover;
+  background-position: bottom-right;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -179,6 +186,11 @@ footer {
 
 .Inst {
   color: rgb(133, 157, 149);
+}
+
+.feedback {
+  padding: 10px;
+  
 }
 
 
