@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@100&display=swap');
+
+/*--------------------------Header-------------------------*/
+
+body {
+  margin: 0;
+}
+
+
+h2 , h3 {
+  border-bottom: solid ;
+  border-color: rgb(128, 100, 30);
+}
+
+
+.PP , li {
+  font-weight: 900;
+  font-family: 'Bebas Neue',
+} 
+
+.round-image {
+  padding: 30px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.flex-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero {
+  padding: 10px;
+  font-size: large;
+  background-image: url("../images/pexels-lukas-317333.jpg");
+  background-size: cover;
+  padding-bottom: 50px;
+} 
+
+.hero2 {
+  padding: 10px;
+  margin: 0;
+  flex: 2;
+  font-size: larger;
+  background-color: rgb(233, 204, 168);
+}  
+
+.ConIn {
+  border-top: 10px;
+  background-color: rgb(213, 186, 152);
+  border-radius: 50px;
+}
+
+.ED {
+  font-style: oblique;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(213, 186, 152);
+}
+
+.F {
+  background-image: url("../images/pexels-lukas-317333.jpg");
+  padding: 20px;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+
+/*--------------------------Main-------------------------*/
+
+
+.main-con {
+  margin: 0;
+  display: flex;
+  justify-content:space-evenly;
+} 
+
+.main-con1{
+  display: flex;
+  flex: 1.5;
+  margin: 0;
+} 
+.main-con2 {
+  background-color: rgb(241, 239, 211);
+  padding-left: 10px;
+  flex: 2;
+  margin: 0;
+}
+
+.Cert {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ebd3c3;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+
+
+
+/*--------------------------Footer-------------------------*/
+
+
+
+.container3 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+footer {
+  background-color: rgb(233, 210, 210);
+}
+
+.ContactInfo {
+  flex: 2;
+} 
+
+.feedback {
+  position: relative;
+  
+  flex: 2;
+  padding-left: 200px;
+}
+
+.E1 {
+  background-color: rgb(226, 169, 216);
+  border-radius: 15px;
+}
+
+.L1 {
+  background-color: #70a9e1;
+  border-radius: 15px;
+}
+
+.G1 {
+  background-color: rgb(161, 152, 211);
+  border-radius: 15px;
+} 
+
+.I1 {
+  background-color: rgb(223, 234, 231);
+  border-radius: 15px;
+} 
+
+.T1 {
+  border-radius: 15px;
+  background-color: rgb(99, 136, 173);
+} 
+
+.emailIMG , .Linked , .GitH , .Insta , .Twitt {
+  width: 30px;
+}
+
+.L {
+  color: #70a9e1;
+}
+
+.E {
+  color: rgb(158, 104, 168);
+}
+
+.G {
+  color: rgb(78, 65, 148);
+} 
+
+.T {
+  color: rgb(105, 99, 99);
+}
+
+.Inst {
+  color: rgb(133, 157, 149);
+}
+
+
